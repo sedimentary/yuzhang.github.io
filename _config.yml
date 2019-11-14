@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+>>> import matplotlib.pyplot as plt
+>>> squares=[1,4,9,14,25]
+>>> plt.plot(squares,linewidth=5)
+[<matplotlib.lines.Line2D object at 0x000000000B0D3E48>]
+>>> plt.title("square numbers",fontsize=24)
+Text(0.5, 1.0, 'square numbers')
+>>> plt.xlabel("value",fontsize=14)
+Text(0.5, 0, 'value')
+>>> plt.ylabel("square of value",fontsize=14)
+Text(0, 0.5, 'square of value')
+>>> plt.tick_params(axis='both',labelsize=14)
+>>> plt.show()
+>>> 
